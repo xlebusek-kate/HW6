@@ -15,11 +15,11 @@ public class Main {
             System.out.println(f);
         }
         // Задание номер 4
-        for (byte h = 10; h <= -10; h--) {
+        for (byte h = 10; h >= -10; h--) {
             System.out.println(h);
         }
         // Задание номер 5
-        for (short year = 1904; year < 2096; year += 4) {
+        for (short year = 1904; year <= 2096; year += 4) {
             System.out.println(year + " год является високосным");
         }
         // Задание номер 6
