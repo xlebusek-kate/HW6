@@ -25,8 +25,8 @@ public class Main {
         // Задание номер 6
         byte number = 7;
         for (byte u = 1; u <= 14; u++) {
-            byte result = (byte) (number * u);
-            System.out.println(result);
+            System.out.println(number * u);
+
         }
         // Задание номер 7
         short numberSymbol = 1;
@@ -37,7 +37,7 @@ public class Main {
         // Задание номер 8
         int savings = 0;
         int income = 29000;
-        for (byte d = 0; d <= 12; d++) {
+        for (byte d = 1; d <= 12; d++) {
             savings = d * income;
             System.out.println(" Месяц " + d + ", сумма накопленная равна " + savings + " рублей");
         }
@@ -45,8 +45,8 @@ public class Main {
         int savingsBank = 0;
         int incomeBank = 29000;
         for (byte numberMonths = 1; numberMonths <= 12; numberMonths++) {
-            savingsBank = savingsBank + savingsBank * 12 / 100;
             savingsBank = savingsBank + incomeBank;
+            savingsBank = savingsBank + savingsBank * 12 / 100;
             System.out.println(" Месяц " + numberMonths + " сумма накоплений равна " + savingsBank + " рублей");
         }
         // Задание номер 10
