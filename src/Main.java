@@ -28,6 +28,7 @@ public class Main {
             System.out.println(number * u);
 
         }
+
         // Задание номер 7
         short numberSymbol = 1;
         for (byte i = 0; i < 10; i++) {
